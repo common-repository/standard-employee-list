@@ -1,0 +1,30 @@
+.ui-tabs-nav {
+	float: left;
+	overflow: hidden;
+	width: 25%;
+	text-align: right;
+	padding: 30px 0;
+	box-sizing: border-box;
+}
+.ui-tabs-nav .ui-state-default{}
+.ui-tabs-nav .ui-state-default .ui-tabs-anchor{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 10px;
+}
+.ui-tabs-nav .ui-state-hover .ui-tabs-anchor,
+.ui-tabs-nav .ui-state-active .ui-tabs-anchor{	
+	background: linear-gradient(to left, #F1F1F1 ,#dddddd , #ffffff);
+}
+
+.ui-tabs-panel {
+	overflow: hidden;
+	width: 75%;
+	display: block;
+	background: linear-gradient( to left, #ffffff, #dddddd, #F1F1F1);
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 265px;
+	color: #000000;
+}
